@@ -16,8 +16,8 @@ body {
 }
 
 /* navigation section style start */
-header{
-    margin-bottom: 120px;
+header {
+  margin-bottom: 120px;
 }
 nav {
   background: #fff;
@@ -27,7 +27,7 @@ nav {
   min-height: 100px;
   display: flex;
   align-items: center;
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 .nav-contant {
@@ -94,15 +94,18 @@ nav {
 
 .banner-container {
   margin: 50px auto 0;
-  max-width: 1200px;
+  max-width: 1300px;
   min-height: 50px;
   align-items: center;
   display: flex;
   justify-content: space-between;
   padding: 10px;
   border-radius: 10px;
-  background-color:  linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
-
+  background-color: linear-gradient(
+    223deg,
+    rgba(140, 87, 238, 0.03) 0%,
+    rgba(241, 68, 174, 0.03) 100%
+  );
 }
 
 .banner-contant {
@@ -149,7 +152,7 @@ nav {
 }
 
 .banner-button {
-    margin-top: 40px;
+  margin-top: 40px;
   padding: 21px 40px;
   margin-right: 20px;
   border-radius: 5px;
@@ -171,7 +174,56 @@ nav {
 /* banner section style end */
 
 /* main section style start*/
+main {
+  margin: 50px auto 0;
+  max-width: 1300px;
+}
+/* Online Games section style start */
 
+.online-tital,
+.online-discriptin {
+  text-align: center;
+}
+.online-tital {
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 700;
+}
+.funny {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.online-discriptin {
+  margin-top: 16px;
+  color: #534c64;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.online-card-container {
+  display: flex;
+  gap: 24px;
+  margin-top: 40px;
+  margin-bottom: 48px;
+}
+.online-card{
+    width: 342px;
+    margin: auto;
+    border: none;
+}
 
+.img-card {
+  width: 100%;
+}
+.card-text{
+color: #534C64;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+margin-top: 24px;
+}
 
+/* Online Games section style end */
 /* main section style end*/
