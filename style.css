@@ -14,9 +14,9 @@ body {
   font-family: "Space Mono", monospace;
   font-family: "Work Sans", sans-serif;
 }
- section{
-     margin-bottom: 120px;
- }
+section {
+  margin-bottom: 120px;
+}
 /* navigation section style start */
 header {
   margin-bottom: 120px;
@@ -176,10 +176,10 @@ nav {
 /* banner section style end */
 
 /* main section style start*/
-main {
+/* main {
   margin: 50px auto 0;
   max-width: 1300px;
-}
+} */
 /* Online Games section style start */
 
 .online-tital,
@@ -205,6 +205,8 @@ main {
   line-height: 30px;
 }
 .online-card-container {
+    margin: 50px auto 0;
+  max-width: 1300px;
   display: flex;
   gap: 24px;
   margin-top: 40px;
@@ -234,12 +236,12 @@ main {
 }
 /* Online Games section style end */
 
-
 /* play-instantly section style start */
 
 .play-instantly {
+    margin: 50px auto 0;
+  max-width: 1300px;
   display: flex;
-  /* gap: 120px; */
   justify-content: space-between;
   align-items: center;
 }
@@ -247,8 +249,8 @@ main {
     margin-left: 50px;
 } */
 
-.play-img{
-    max-width: 50%;
+.play-img {
+  max-width: 50%;
 }
 
 .play-img img {
@@ -289,9 +291,60 @@ main {
 }
 /* play-instantly section style end */
 
-.add {
-  height: 200px;
-  background-color: #f00044;
-  width: 200px;
+
+/* game container section style start */
+.game-container{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
+.game-contant{
+    margin: 50px auto 0;
+    max-width: 1300px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    /*  */
+    gap: 33px;
+    grid-template-columns: repeat(5,1fr);
+}
+/* .btn {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  max-width: 248px;
+  height: 80px;
+  margin: auto;
+  padding: 28px 20px 28px 0px;
+  border-radius: 50px;
+  background: #fff;
+  color: #0b0223;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+}
+.btn-img {
+  padding-left: 15px;
+} */
+.button {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    max-width: 10em;
+    padding: 1em .5em;
+    background: transparent;
+    border: 2px solid grey;
+    border-radius: 1em;
+    cursor: pointer;
+  }
+  .button:hover {
+    background-color: gray;
+    color: white;
+  }
+  .buttonIcon {
+    justify-self: start;
+  }
+  .buttonText {
+    justify-self: center;
+  }
+/* game container section style end  */
 /* main section style end*/
