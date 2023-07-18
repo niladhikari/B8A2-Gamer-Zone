@@ -14,7 +14,9 @@ body {
   font-family: "Space Mono", monospace;
   font-family: "Work Sans", sans-serif;
 }
-
+ section{
+     margin-bottom: 120px;
+ }
 /* navigation section style start */
 header {
   margin-bottom: 120px;
@@ -208,22 +210,88 @@ main {
   margin-top: 40px;
   margin-bottom: 48px;
 }
-.online-card{
-    width: 342px;
-    margin: auto;
-    border: none;
+.online-card {
+  width: 342px;
+  margin: auto;
+  border: none;
+}
+.card-img:hover {
+  border: 3px solid #f948b2;
+  border-radius: 16px;
+
+  /* height:auto; */
 }
 
 .img-card {
   width: 100%;
 }
-.card-text{
-color: #534C64;
-font-size: 20px;
-font-weight: 500;
-line-height: 30px;
-margin-top: 24px;
+.card-text {
+  color: #534c64;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-top: 24px;
+}
+/* Online Games section style end */
+
+
+/* play-instantly section style start */
+
+.play-instantly {
+  display: flex;
+  /* gap: 120px; */
+  justify-content: space-between;
+  align-items: center;
+}
+/* .play-img{
+    margin-left: 50px;
+} */
+
+.play-img{
+    max-width: 50%;
 }
 
-/* Online Games section style end */
+.play-img img {
+  width: 100%;
+}
+.ten-years-badge img {
+  width: 100%;
+}
+.ten-years-badge {
+  transform: translateX(-80px);
+  border-radius: 8px;
+  color: #fff;
+  width: 340px;
+  position: relative;
+  bottom: 100px;
+}
+.play-container-tital {
+  max-width: 350px;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 60px;
+  text-align: right;
+}
+.instantly {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.play-container-discription {
+  max-width: 353px;
+  color: #534c64;
+  text-align: right;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 24px;
+  line-height: 30px;
+}
+/* play-instantly section style end */
+
+.add {
+  height: 200px;
+  background-color: #f00044;
+  width: 200px;
+}
 /* main section style end*/
