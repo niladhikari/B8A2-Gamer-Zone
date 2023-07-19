@@ -3,7 +3,7 @@
 }
 
 /* for Tab section */
-@media screen and (min-width: 740px) and (max-width: 830px)  {
+@media screen and (min-width: 740px) and (max-width: 830px) {
   .nav-container {
     flex-direction: column;
     padding: 30px 0px;
@@ -18,16 +18,16 @@
   .nav-item a {
     margin-top: 40px;
   }
- .nav-item a:hover {
-      background-color: beige;
- }
+  .nav-item a:hover {
+    background-color: beige;
+  }
   .nav-item .login-btn {
     margin-bottom: 10px;
     background-color: bisque;
   }
 
   /* banner section responsive */
-  .banner{
+  .banner {
     background-position: bottom;
   }
   .banner-container {
@@ -49,10 +49,10 @@
     margin-bottom: 30px;
   }
   .banner-contant p {
-   margin-bottom: 20px;
+    margin-bottom: 20px;
   }
   .icon {
-    margin-bottom:30px;
+    margin-bottom: 30px;
   }
   .banner-contant,
   .banner-img {
@@ -73,21 +73,21 @@
   }
   /* online section responsive */
   .online-card-container {
-   display: flex;
-   flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
     gap: 24px;
     padding: 18px;
     margin-top: 40px;
     margin-bottom: 48px;
   }
-  .online-tital h1{
+  .online-tital h1 {
     width: 655px;
     margin: auto;
   }
   .online-discriptin {
     font-size: 20px;
   }
-  .card-text p{
+  .card-text p {
     width: 340px;
     text-align: center;
     margin: auto;
@@ -133,38 +133,65 @@
     transform: translateX(-50px);
   }
 
+  /* game responsive */
+  .game-container {
+    grid-template-columns: repeat(4, 1fr);
+    padding: 10px;
+    gap: 12px;
+  }
 
+  .button {
+    background: #fff;
+    border-radius: 30px;
+    display: flex;
+    padding: 10px;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+  }
 
+  .button:hover {
+    border: 5px solid #ff42a5;
+  }
+
+  .button img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .button span {
+    margin-top: 15px;
+    font-size: 16px;
+  }
   /* footer responsive */
-.footer-container {
-  padding: 100px 20px;
-  height: 679px;
+  .footer-container {
+    padding: 100px 20px;
+    height: 679px;
+  }
+  .footer-contant {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 56px;
+  }
+  .footer-name,
+  .footer-service {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .footer-service {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer-icon {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
 }
-.footer-contant{
-  display: flex;
-  justify-content: center;
-  margin-bottom: 56px;
-}
-.footer-name , .footer-service {
-  display: grid;
-  gap: 30px;
-  grid-template-columns: repeat(4,1fr);
-}
-.footer-service{
-  grid-template-columns: repeat(2,1fr);
-}
-.footer-icon{
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  gap: 40px;
-}
-
-}
-
 
 /* for large mobile */
 @media screen and (min-width: 576px) and (max-width: 740px) {
- .nav-container {
+  .nav-container {
     flex-direction: column;
     padding: 30px 0px;
   }
@@ -189,7 +216,7 @@
     flex-direction: column-reverse;
     padding: 30px;
   }
-  .banner{
+  .banner {
     background-position: bottom;
   }
   .banner-contant,
@@ -200,7 +227,7 @@
   .banner-text h1 {
     font-size: 30px;
   }
- 
+
   .banner-img {
     padding-bottom: 130px;
   }
@@ -215,10 +242,10 @@
     margin-bottom: 30px;
   }
   .banner-contant p {
-   margin-bottom: 20px;
+    margin-bottom: 20px;
   }
   .icon {
-    margin-bottom:30px;
+    margin-bottom: 30px;
   }
   .banner-button {
     padding: 15px 24px;
@@ -248,7 +275,7 @@
   .online-discriptin {
     font-size: 20px;
   }
-  .card-text p{
+  .card-text p {
     width: 350px;
     margin: auto;
     text-align: center;
@@ -289,40 +316,63 @@
     transform: translateX(-50px);
   }
 
-
-  /*  */
-  .game-contant{
-    margin: 50px auto 0;
+  /* game responsive */
+  .game-container {
+    grid-template-columns: repeat(3, 1fr);
     padding: 10px;
-    grid-template-columns: repeat(3,1fr);
-}
+    gap: 10px;
+  }
 
-/* footer responsive */
-.footer-container {
-  padding: 100px 20px;
-  height: 679px;
-}
-.footer-contant{
-  display: flex;
-  justify-content: center;
-  margin-bottom: 56px;
-}
-.footer-name , .footer-service {
-  display: grid;
-  gap: 30px;
-  grid-template-columns: repeat(3,1fr);
-}
-.footer-service{
-  grid-template-columns: repeat(2,1fr);
-}
-.footer-icon{
-  display: grid;
-  font-size: 40px;
-  grid-template-columns: repeat(3,1fr);
-  gap: 30px;
-}
-}
+  .button {
+    background: #fff;
+    border-radius: 20px;
+    display: flex;
+    padding: 15px;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+  }
 
+  .button:hover {
+    border: 3px solid #ff42a5;
+  }
+
+  .button img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .button span {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  /* footer responsive */
+  .footer-container {
+    padding: 100px 20px;
+    height: 679px;
+  }
+  .footer-contant {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 56px;
+  }
+  .footer-name,
+  .footer-service {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .footer-service {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer-icon {
+    display: grid;
+    font-size: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+}
 
 /* for mobile section */
 @media screen and (max-width: 576px) {
@@ -359,7 +409,7 @@
   .banner-text h1 {
     font-size: 30px;
   }
-  .banner{
+  .banner {
     background-position: bottom;
   }
   .banner-img {
@@ -410,7 +460,7 @@
   .online-discriptin {
     font-size: 12px;
   }
-  .card-text p{
+  .card-text p {
     width: 340px;
     margin: auto;
     text-align: center;
@@ -443,48 +493,74 @@
     transform: translateX(-50px);
   }
 
-  /*  */
-  .game-contant{
-    margin: 50px auto 0;
-    padding: 10px;
-    grid-template-columns: repeat(3,1fr);
-}
+  /* game responsive */
 
-/* footer responsive */
-.footer-container {
-  padding: 100px 30px;
-  height: 679px;
-}
-.footer-contant{
-  display: flex;
-  justify-content: center;
-  margin-bottom: 56px;
-}
-.footer-name , .footer-service {
-  display: grid;
-  gap: 40px;
-  width: 205;
-  grid-template-columns: repeat(3,1fr);
-}
-.footer-service{
-  grid-template-columns: repeat(2,1fr);
-}
-.footer-icon{
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  gap: 30px;
-}
-.footer-name,
-.footer-service p {
-  font-size: 12px;
-  font-weight: 600;
-}
-.icons{
-  font-size: 30px;
-}
-.copy-right{
- max-width: 258px;
- padding-top: 24px;
- margin: auto;
-}
+  .game-container {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .button {
+    background: #fff;
+    border-radius: 20px;
+    display: flex;
+    padding: 10px;
+    gap: 5px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .button:hover {
+    border: 2px solid #ff42a5;
+  }
+
+  .button img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .button span {
+    margin-top: 5px;
+    font-size: 10px;
+  }
+
+  /* footer responsive */
+  .footer-container {
+    padding: 100px 30px;
+    height: 679px;
+  }
+  .footer-contant {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 56px;
+  }
+  .footer-name,
+  .footer-service {
+    display: grid;
+    gap: 40px;
+    width: 205;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .footer-service {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer-icon {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+  .footer-name,
+  .footer-service p {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .icons {
+    font-size: 30px;
+  }
+  .copy-right {
+    max-width: 258px;
+    padding-top: 24px;
+    margin: auto;
+  }
 }
