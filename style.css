@@ -112,7 +112,7 @@ nav {
 
 .banner-contant {
   padding: 10px;
-  background-image:url('images/Group\ 14.png');
+  background-image: url("images/Group\ 14.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -151,7 +151,9 @@ nav {
   margin-top: 20px;
   text-transform: lowercase;
 }
-.fa-circle-play ,.fa-down-long,.fa-people-arrows{
+.fa-circle-play,
+.fa-down-long,
+.fa-people-arrows {
   display: grid;
   /* gap: 10px; */
   padding-right: 10px;
@@ -221,19 +223,33 @@ nav {
   margin-bottom: 48px;
 }
 .online-card {
-  width: 342px;
-  margin: auto;
+  /* width: 342px;
+  margin: auto; */
   border: none;
 }
-.card-img:hover {
-  border: 3px solid #f948b2;
-  border-radius: 16px;
 
-  /* height:auto; */
+.card-img {
+  width: 342px;
+  height: 400px;
+  cursor: pointer;
 }
-
-.img-card {
-  width: 100%;
+.img-1,
+.img-2,
+.img-3,
+.img-4 {
+  background-image: url("images/Rectangle\ 4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img-2 {
+  background-image: url("images/Rectangle\ 5.png");
+}
+.img-3 {
+  background-image: url("images/Rectangle\ 7.png");
+}
+.img-4 {
+  background-image: url("images/Rectangle\ 6.png");
 }
 .card-text {
   color: #534c64;
@@ -241,6 +257,55 @@ nav {
   font-weight: 500;
   line-height: 30px;
   margin-top: 24px;
+}
+
+.img-1:hover {
+  border: 5px solid #f948b2;
+  border-radius: 16px;
+  border-radius: 16px;
+  border-radius: 46px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url('images/Rectangle\ 4.png'), lightgray 50% / cover no-repeat;
+}
+.img-2:hover {
+  border: 5px solid #f948b2;
+  border-radius: 16px;
+  border-radius: 16px;
+  border-radius: 46px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url('images/Rectangle\ 5.png'), lightgray 50% / cover no-repeat;
+}
+.img-3:hover {
+  border: 5px solid #f948b2;
+  border-radius: 16px;
+  border-radius: 16px;
+  border-radius: 46px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url('images/Rectangle\ 7.png'), lightgray 50% / cover no-repeat;
+}
+.img-4:hover {
+  border: 5px solid #f948b2;
+  border-radius: 16px;
+  border-radius: 16px;
+  border-radius: 46px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url('images/Rectangle\ 6.png'), lightgray 50% / cover no-repeat;
 }
 /* Online Games section style end */
 
@@ -370,7 +435,7 @@ nav {
 
 .footer {
   color: #fff;
-  background-color: #0B0223;
+  background-color: #0b0223;
 }
 .footer-container {
   display: grid;
@@ -415,11 +480,11 @@ nav {
   font-size: 18px;
   font-weight: 600;
 }
-.footer-service p{
-  color: rgba(255, 255, 255, 0.60);
+.footer-service p {
+  color: rgba(255, 255, 255, 0.6);
 }
 .copy-right {
-  color: rgba(255, 255, 255, 0.60);
+  color: rgba(255, 255, 255, 0.6);
   padding-top: 18px;
   font-size: 16px;
   font-weight: 500;
