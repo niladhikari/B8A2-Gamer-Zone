@@ -227,10 +227,18 @@ nav {
   margin: auto; */
   border: none;
 }
-
+.card-text p{
+  color: #534C64;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
 .card-img {
-  width: 342px;
-  height: 400px;
+  width: 300px;
+  height: 350px;
+  margin: auto;
   cursor: pointer;
 }
 .img-1,
@@ -307,6 +315,46 @@ nav {
     ),
     url('images/Rectangle\ 6.png'), lightgray 50% / cover no-repeat;
 }
+
+
+.parent {
+  width: 300px;
+  height: 3500px;
+  position: relative;
+}
+
+.child {
+  width: 200px;
+  height: 200px;
+  display: none;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.child h1{
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 600;
+  background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent
+}
+.child .fa-circle-play {
+  padding-left: 70px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 40px;
+  width: 68px;
+  height: 68px;
+  color: #FFFFFF;
+}
+
+.parent:hover .child {
+  display: block;
+}
 /* Online Games section style end */
 
 /* play-instantly section style start */
@@ -362,6 +410,45 @@ nav {
   margin-top: 24px;
   line-height: 30px;
 }
+
+.parent {
+    width: 342px;
+    height: 400px;
+    position: relative;
+  }
+  
+  .child {
+    width: 200px;
+    height: 200px;
+    display: none;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .child h1{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 600;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+  }
+  .child .fa-circle-play {
+    padding-left: 70px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    width: 68px;
+    height: 68px;
+    color: #FFFFFF;
+  }
+  
+  .parent:hover .child {
+    display: block;
+  }
 /* play-instantly section style end */
 
 /* game container section style start */

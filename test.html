@@ -1,71 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Great+Vibes&family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Josefin+Slab:wght@600&family=Lato:wght@400;700&family=Open+Sans:wght@400;700;800&family=PT+Serif:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&family=Space+Mono:wght@400;700&family=Work+Sans:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
-        .container {
+        .parent {
+            width: 342px;
+            height: 400px;
             position: relative;
-            width: 100%;
-            max-width: 400px;
         }
 
-        .image {
-            display: block;
-            width: 100%;
-            height: auto;
-        }
-
-        .overlay {
+        .child {
+            width: 200px;
+            height: 200px;
+            display: none;
             position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            height: 100%;
-            width: 100%;
-            opacity: 0;
-            transition: .3s ease;
-            /* background-color: red; */
-        }
-
-        .container:hover .overlay {
-            opacity: 1;
-        }
-
-        .icon {
-            color: white;
-            font-size: 100px;
-            position: absolute;
-            top: 50%;
+            top: 60%;
             left: 50%;
             transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
+        }
+         .child h1{
             text-align: center;
+            font-family: Work Sans;
+            font-size: 20px;
+            font-weight: 600;
+            background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent
+         }
+        .child .fa-circle-play {
+            padding-left: 60px;
+            text-align: center;
+            width: 48px;
+            height: 48px;
+            color: #FFFFFF;
         }
 
-        .fa-solid:hover {
-            color: #eee;
+        .parent:hover .child {
+            display: block;
         }
     </style>
 </head>
 
 <body>
-
-    <h2>Fade in Overlay Icon</h2>
-    <p>Hover over the image to see the effect.</p>
-
-    <div class="container">
-        <img src="images/Rectangle 13.png" class="image">
-        <div class="overlay">
-            <a href="#" class="icon" title="User Profile">
-                <i class="fa-solid fa-play"></i>
-            </a>
+    <div class="parent">
+        Hover over me!
+        <div class="child">
+            <h1>Watch Now</h1>
+            <i class="fa-regular fa-circle-play"></i>
         </div>
     </div>
 </body>
 
 </html>
+
