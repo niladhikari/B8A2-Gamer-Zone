@@ -81,6 +81,32 @@
   .ten-years-badge {
     transform: translateX(-50px);
   }
+
+
+
+  /* footer responsive */
+.footer-container {
+  padding: 100px 20px;
+}
+.footer-contant{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 56px;
+}
+.footer-name , .footer-service {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(4,1fr);
+}
+.footer-service{
+  grid-template-columns: repeat(2,1fr);
+}
+.footer-icon{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 40px;
+}
+
 }
 
 /* for mobile section */
@@ -190,5 +216,42 @@
     margin: 50px auto 0;
     padding: 10px;
     grid-template-columns: repeat(3,1fr);
+}
+
+/* footer responsive */
+.footer-container {
+  padding: 100px 10px;
+}
+.footer-contant{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 56px;
+}
+.footer-name , .footer-service {
+  display: grid;
+  gap: 40px;
+  width: 205;
+  grid-template-columns: repeat(3,1fr);
+}
+.footer-service{
+  grid-template-columns: repeat(2,1fr);
+}
+.footer-icon{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 30px;
+}
+.footer-name,
+.footer-service p {
+  font-size: 14px;
+  font-weight: 600;
+}
+.icons{
+  font-size: 30px;
+}
+.copy-right{
+ max-width: 258px;
+ padding-top: 24px;
+ margin: auto;
 }
 }
