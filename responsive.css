@@ -40,7 +40,8 @@
     text-align: center;
   }
   .banner-contant p {
-    color: cadetblue;
+    padding-left: 20px;
+    text-align: left;
   }
   /* online section responsive */
   .online-card-container {
@@ -144,14 +145,16 @@
   .banner-text h1 {
     font-size: 30px;
   }
-  .banner-text p {
-    font-size: 25px;
-  }
+ 
   .banner-img {
     padding-bottom: 130px;
   }
   .banner-contant {
     text-align: center;
+  }
+  .banner-text p {
+    font-size: 25px;
+    text-align: start;
   }
   .banner-button {
     padding: 15px 24px;
@@ -175,7 +178,7 @@
   }
   .online-tital {
     color: #0b0223;
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 700;
   }
   .online-discriptin {
