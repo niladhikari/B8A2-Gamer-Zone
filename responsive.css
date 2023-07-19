@@ -39,7 +39,7 @@
     margin-top: 30px;
     font-weight: 800;
     margin-bottom: 30px;
-    background: linear-gradient(180deg, #9e1569 0%, #2d0e77 100%);
+    background: linear-gradient(180deg, #9e1569 0%, #503986 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -163,6 +163,7 @@
     margin-top: 15px;
     font-size: 16px;
   }
+
   /* footer responsive */
   .footer-container {
     padding: 100px 20px;
@@ -171,7 +172,7 @@
   .footer-contant {
     display: flex;
     justify-content: center;
-    margin-bottom: 56px;
+    margin-bottom: 60px;
   }
   .footer-name,
   .footer-service {
@@ -185,7 +186,12 @@
   .footer-icon {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
+    gap: 30px;
+  }
+  .icons {
+    font-size: 40px;
+    color: #FFFFFF;
+    cursor: pointer;
   }
 }
 
@@ -409,15 +415,21 @@
   .banner-text h1 {
     font-size: 30px;
   }
-  .banner {
-    background-position: bottom;
+  .banner{
+    background-position: top;
+   background-color: #FFF;
+  }
+  .banner-contant {
+    text-align: center;
+    background-image: url("images/Group\ 14.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
   .banner-img {
     padding-bottom: 130px;
   }
-  .banner-contant {
-    text-align: center;
-  }
+
   .banner-contant h1 {
     font-size: 40px;
   }
@@ -464,8 +476,11 @@
     width: 340px;
     margin: auto;
     text-align: center;
-    font-size: 12px;
+    font-size: 11px;
     margin-top: 0px;
+  }
+  .card-text {
+    padding-top: 10px;
   }
 
   /* play  instantly responsive*/
@@ -475,6 +490,7 @@
   }
   .play-container-tital {
     text-align: center;
+    font-size: 35px;
   }
   .play-container-discription {
     text-align: center;
@@ -552,15 +568,16 @@
   }
   .footer-name,
   .footer-service p {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
   }
   .icons {
-    font-size: 30px;
+    font-size: 25px;
   }
   .copy-right {
     max-width: 258px;
     padding-top: 24px;
+    font-size: 14px;
     margin: auto;
   }
 }
