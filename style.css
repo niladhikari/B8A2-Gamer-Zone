@@ -366,9 +366,6 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-/* .play-img{
-    margin-left: 50px;
-} */
 
 .play-img {
   max-width: 50%;
@@ -378,7 +375,7 @@ nav {
   width: 100%;
 }
 .ten-years-badge img {
-  width: 100%;
+  width: 80%;
 }
 .ten-years-badge {
   transform: translateX(-80px);
