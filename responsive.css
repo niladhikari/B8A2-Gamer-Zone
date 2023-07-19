@@ -27,6 +27,9 @@
   }
 
   /* banner section responsive */
+  .banner{
+    background-position: bottom;
+  }
   .banner-container {
     flex-direction: column-reverse;
     padding: 20px;
@@ -186,7 +189,9 @@
     flex-direction: column-reverse;
     padding: 30px;
   }
-
+  .banner{
+    background-position: bottom;
+  }
   .banner-contant,
   .banner-img {
     width: 100%;
@@ -354,7 +359,9 @@
   .banner-text h1 {
     font-size: 30px;
   }
- 
+  .banner{
+    background-position: bottom;
+  }
   .banner-img {
     padding-bottom: 130px;
   }

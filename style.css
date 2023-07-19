@@ -95,7 +95,7 @@ nav {
 /* banner section style start */
 
 .banner-container {
-  margin: 50px auto 0;
+  margin: 0 auto 0;
   max-width: 1300px;
   min-height: 50px;
   align-items: center;
@@ -109,13 +109,13 @@ nav {
     rgba(241, 68, 174, 0.03) 100%
   );
 }
-
+.banner{
+  background-image: url("images/Group\ 14.png");
+  background-position: left;
+  background-repeat: no-repeat;
+}
 .banner-contant {
   padding: 10px;
-  background-image: url("images/Group\ 14.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 50%;
 }
 .banner-img {
@@ -124,7 +124,7 @@ nav {
 }
 .banner-img img {
   width: 100%;
-  height: auto;
+  /* height: auto; */
   border-radius: 10px;
   object-fit: cover;
 }
