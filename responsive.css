@@ -3,7 +3,7 @@
 }
 
 /* for Tab section */
-@media screen and (min-width: 740px) and (max-width: 820px)  {
+@media screen and (min-width: 740px) and (max-width: 830px)  {
   .nav-container {
     flex-direction: column;
     padding: 30px 0px;
@@ -135,6 +135,7 @@
   /* footer responsive */
 .footer-container {
   padding: 100px 20px;
+  height: 679px;
 }
 .footer-contant{
   display: flex;
@@ -294,6 +295,7 @@
 /* footer responsive */
 .footer-container {
   padding: 100px 20px;
+  height: 679px;
 }
 .footer-contant{
   display: flex;
@@ -444,6 +446,7 @@
 /* footer responsive */
 .footer-container {
   padding: 100px 30px;
+  height: 679px;
 }
 .footer-contant{
   display: flex;
