@@ -151,6 +151,11 @@ nav {
   margin-top: 20px;
   text-transform: lowercase;
 }
+.fa-circle-play ,.fa-down-long,.fa-people-arrows{
+  display: grid;
+  /* gap: 10px; */
+  padding-right: 10px;
+}
 .icon {
   margin-bottom: 20px;
   display: flex;
@@ -182,10 +187,7 @@ nav {
 /* banner section style end */
 
 /* main section style start*/
-/* main {
-  margin: 50px auto 0;
-  max-width: 1300px;
-} */
+
 /* Online Games section style start */
 
 .online-tital,
